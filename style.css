@@ -1,0 +1,15 @@
+
+
+#results {
+    padding: 1em;
+    border: 1px solid #000000;
+}
+
+#button, #button2 {
+    margin-top: 100px;
+}
+
+#img {
+    border-radius: 50%;
+    margin-left:200px;
+}
