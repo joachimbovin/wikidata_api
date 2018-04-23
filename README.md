@@ -1,1 +1,1 @@
-Quick script that uses JQuery and the Wikidata API to get images from Wikidata.
+Quick script that uses JQuery and the WikiMedia API to get images from Wikidata.

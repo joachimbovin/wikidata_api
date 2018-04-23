@@ -5,6 +5,7 @@
     <title>wikimedia</title>
 
     <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="md5.js"></script>
     <!-- <script src="get_id.js"></script> -->
@@ -12,13 +13,29 @@
 </head>
 <body>
 
-<p>
-    Input the full name of an author e.g. Stephen King <input type="text" id="name">
-Get the q id from Wikidata <button id="button2"> Get Q id for WikiDB</button>
-Click to see the author's picture <button id="button"> Show Picture </button>
+<header> <h1> Look up the author... </h1> </header>
+
+<div id="control-panel">
+<p>Input the full name of an author e.g. Stephen King <input type="text" id="name"> <br>
+Get the q id from Wikidata <button id="button2"> Get Q id for WikiDB</button> <br>
+Click to see the author's picture <button id="button"> Show Picture </button> <br>Click to get additional information  <button id="button3"> Get information</button>
 </p>
+</div>
 <div id="results">
 
+
+</div>
+
+<div id="additional_info">
+<div id="info_books"> </div>   <ul>
+    <li id="book_1"> </li>
+    <li id="book_2"></li>
+    <li id="book_3"></li>
+    <li id="book_4"></li>
+    <li id="book_5"></li>
+</ul>
+
+<div id="country"> </div>
 
 </div>
 
